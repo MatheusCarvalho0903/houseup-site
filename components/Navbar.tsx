@@ -55,7 +55,7 @@ export default function Navbar() {
                 alt="HouseUp Construtora"
                 width={160}
                 height={36}
-                className="h-10 w-auto lg:h-12"
+                className="h-16 w-auto lg:h-20"
                 priority
               />
             </a>
