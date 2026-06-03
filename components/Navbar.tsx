@@ -40,10 +40,10 @@ export default function Navbar() {
         animate={{
           backgroundColor: scrolled
             ? "rgba(13, 46, 110, 0.97)"
-            : "rgba(0, 0, 0, 0)",
+            : "rgba(13, 46, 110, 0.30)",
         }}
         transition={{ duration: 0.35, ease: "easeInOut" }}
-        style={{ backdropFilter: scrolled ? "blur(14px)" : "none" }}
+        style={{ backdropFilter: scrolled ? "blur(14px)" : "blur(4px)" }}
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <div className="flex h-16 items-center justify-between lg:h-20">

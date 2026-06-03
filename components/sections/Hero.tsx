@@ -21,7 +21,7 @@ export default function Hero() {
         muted
         playsInline
         aria-hidden="true"
-        className="absolute inset-0 h-full w-full object-cover object-center"
+        className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
       >
         <source src="/video/hero-2.mp4" type="video/mp4" />
       </video>
@@ -37,7 +37,7 @@ export default function Hero() {
       />
 
       {/* ── Conteúdo ──────────────────────────────────── */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-28 pt-36 lg:px-10 lg:pt-0">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-28 pt-32 lg:px-10 lg:pt-40">
         <motion.div
           className="max-w-2xl"
           initial="hidden"
