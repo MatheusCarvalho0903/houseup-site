@@ -23,7 +23,7 @@ export default function Hero() {
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover object-center"
       >
-        <source src="/video/hero-1.mp4" type="video/mp4" />
+        <source src="/video/hero-2.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay gradient — navy escuro à esquerda, transparente à direita */}
@@ -31,7 +31,7 @@ export default function Hero() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(105deg, rgba(13,46,110,0.92) 0%, rgba(13,46,110,0.7) 55%, rgba(13,46,110,0.35) 100%)",
+            "linear-gradient(to right, rgba(13,59,142,0.92) 0%, rgba(13,59,142,0.92) 50%, rgba(13,59,142,0.55) 100%)",
         }}
         aria-hidden="true"
       />
