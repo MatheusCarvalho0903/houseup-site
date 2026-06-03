@@ -2,7 +2,7 @@
 
 @theme {
   /* ── Brand Colors ── */
-  --color-navy-deep:   #0D2E6E;
+  --color-navy-deep:   #0D3B8E;
   --color-navy-mid:    #1A6DB5;
   --color-navy-darker: #0A2558;
   --color-gold:        #C9A84C;
@@ -17,7 +17,7 @@
 
 /* ── CSS Custom Properties ── */
 :root {
-  --navy-deep:   #0D2E6E;
+  --navy-deep:   #0D3B8E;
   --navy-mid:    #1A6DB5;
   --white:       #FFFFFF;
   --off-white:   #F4F7FC;
