@@ -14,18 +14,17 @@ export default function Hero() {
       id="hero"
       className="relative flex min-h-screen items-center overflow-hidden bg-navy-deep"
     >
-      {/* ── Placeholder de vídeo ─────────────────────────
-          Quando o vídeo estiver disponível, substitua este div por:
-
-          <video
-            className="absolute inset-0 h-full w-full object-cover"
-            src="/videos/hero.mp4"
-            poster="/hero-poster.jpg"
-            autoPlay muted loop playsInline
-            aria-hidden="true"
-          />
-      ──────────────────────────────────────────────── */}
-      <div className="absolute inset-0 bg-navy-deep" aria-hidden="true" />
+      {/* Vídeo de fundo */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden="true"
+        className="absolute inset-0 h-full w-full object-cover object-center"
+      >
+        <source src="/video/hero-1.mp4" type="video/mp4" />
+      </video>
 
       {/* Overlay gradient — navy escuro à esquerda, transparente à direita */}
       <div
