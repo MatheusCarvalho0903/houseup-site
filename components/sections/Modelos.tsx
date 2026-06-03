@@ -8,8 +8,7 @@ import { MODELOS, CONTATO, formatarMoeda } from "@/data/simulador";
 const MODELOS_LIST = [MODELOS.start, MODELOS.essence, MODELOS.prime];
 
 // Imagens dos modelos vêm direto de modelo.foto (simulador.ts)
-const PERSONNALITE_FOTO =
-  "https://placehold.co/800x500/0D3B8E/C9A84C?text=Personnalite";
+const PERSONNALITE_FOTO = "/images/modelos/personnalite.jpg";
 
 /* ── Helpers ──────────────────────────────────────────────────────── */
 function waLink(texto: string) {
