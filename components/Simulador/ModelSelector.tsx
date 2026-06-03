@@ -25,14 +25,9 @@ const MODEL_NUM: Record<ModeloId, string> = {
   prime:   "03",
 };
 
-const FOTO: Record<string, string> = {
-  start:   "https://placehold.co/800x500/0D2E6E/1A6DB5?text=HouseUp+Start",
-  essence: "https://placehold.co/800x500/0D2E6E/1A6DB5?text=HouseUp+Essence",
-  prime:   "https://placehold.co/800x500/0D2E6E/1A6DB5?text=HouseUp+Prime",
-};
-
+// Imagens dos modelos vêm direto de MODELOS[id].foto (simulador.ts)
 const PERSONNALITE_FOTO =
-  "https://placehold.co/800x500/0D2E6E/C9A84C?text=Personnalite";
+  "https://placehold.co/800x500/0D3B8E/C9A84C?text=Personnalite";
 
 /* ── Variantes ─────────────────────────────────────────────────────── */
 
@@ -122,7 +117,7 @@ export default function ModelSelector({
             {/* Imagem */}
             <div className="relative aspect-video w-full overflow-hidden">
               <Image
-                src={FOTO[modelo.id]}
+                src={modelo.foto}
                 alt={modelo.nome}
                 fill
                 className="object-cover"

@@ -7,14 +7,9 @@ import { MODELOS, CONTATO, formatarMoeda } from "@/data/simulador";
 /* ── Ordem de exibição dos modelos ────────────────────────────────── */
 const MODELOS_LIST = [MODELOS.start, MODELOS.essence, MODELOS.prime];
 
-/* ── Placeholders (substituir por modelo.foto quando disponível) ──── */
-const FOTO_PLACEHOLDER: Record<string, string> = {
-  start:   "https://placehold.co/800x500/0D2E6E/1A6DB5?text=HouseUp+Start",
-  essence: "https://placehold.co/800x500/0D2E6E/1A6DB5?text=HouseUp+Essence",
-  prime:   "https://placehold.co/800x500/0D2E6E/1A6DB5?text=HouseUp+Prime",
-};
+// Imagens dos modelos vêm direto de modelo.foto (simulador.ts)
 const PERSONNALITE_FOTO =
-  "https://placehold.co/800x500/0D2E6E/C9A84C?text=Personnalite";
+  "https://placehold.co/800x500/0D3B8E/C9A84C?text=Personnalite";
 
 /* ── Helpers ──────────────────────────────────────────────────────── */
 function waLink(texto: string) {
@@ -113,7 +108,7 @@ export default function Modelos() {
               {/* Imagem */}
               <div className="relative aspect-video w-full overflow-hidden">
                 <Image
-                  src={FOTO_PLACEHOLDER[modelo.id]}
+                  src={modelo.foto}
                   alt={modelo.nome}
                   fill
                   className="object-cover"
