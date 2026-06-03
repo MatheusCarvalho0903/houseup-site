@@ -170,8 +170,10 @@ export default function MetodoHouseUp() {
         </motion.div>
 
         {/* ── Desktop: timeline horizontal ────────────────── */}
+        {/* Wrapper controla display — motion.div só anima */}
+        <div className="mt-16 hidden lg:block">
         <motion.div
-          className="mt-16 hidden items-start lg:flex"
+          className="flex items-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
@@ -221,10 +223,13 @@ export default function MetodoHouseUp() {
             </motion.div>
           ))}
         </motion.div>
+        </div>{/* fim wrapper desktop */}
 
         {/* ── Mobile: timeline vertical ───────────────────── */}
+        {/* Wrapper controla display — motion.div só anima */}
+        <div className="mt-12 lg:hidden">
         <motion.div
-          className="mt-12 flex flex-col lg:hidden"
+          className="flex flex-col"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-60px" }}
@@ -267,6 +272,7 @@ export default function MetodoHouseUp() {
             </motion.div>
           ))}
         </motion.div>
+        </div>{/* fim wrapper mobile */}
 
         {/* ── CTA abaixo da timeline ───────────────────────── */}
         <motion.div
