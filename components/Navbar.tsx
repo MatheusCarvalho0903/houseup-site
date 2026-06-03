@@ -37,13 +37,13 @@ export default function Navbar() {
       {/* ── Barra principal ─────────────────────────────── */}
       <motion.nav
         className="fixed inset-x-0 top-0 z-50"
-        animate={{
-          backgroundColor: scrolled
+        style={{
+          background: scrolled
             ? "rgba(13, 46, 110, 0.97)"
-            : "rgba(13, 46, 110, 0.30)",
+            : "linear-gradient(to bottom, rgba(13,59,142,0.7) 0%, transparent 100%)",
+          backdropFilter: scrolled ? "blur(14px)" : "blur(4px)",
+          transition: "background 0.35s ease-in-out, backdrop-filter 0.35s ease-in-out",
         }}
-        transition={{ duration: 0.35, ease: "easeInOut" }}
-        style={{ backdropFilter: scrolled ? "blur(14px)" : "blur(4px)" }}
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <div className="flex h-16 items-center justify-between lg:h-20">

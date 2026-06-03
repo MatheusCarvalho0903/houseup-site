@@ -31,13 +31,13 @@ export default function Hero() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(to right, rgba(13,59,142,0.72) 0%, rgba(13,59,142,0.50) 55%, rgba(13,59,142,0.25) 100%)",
+            "linear-gradient(to right, rgba(13,59,142,0.88) 0%, rgba(13,59,142,0.88) 45%, rgba(13,59,142,0.40) 100%)",
         }}
         aria-hidden="true"
       />
 
       {/* ── Conteúdo ──────────────────────────────────── */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-28 pt-32 lg:px-10 lg:pt-40">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-28 pt-40 lg:px-10 lg:pt-48">
         <motion.div
           className="max-w-2xl"
           initial="hidden"
@@ -48,7 +48,17 @@ export default function Hero() {
             },
           }}
         >
-          {/* H1 — delay 0.2s via stagger */}
+          {/* Tag pill */}
+          <motion.div
+            variants={fadeUp}
+            transition={{ duration: 0.55, ease: "easeOut" }}
+          >
+            <span className="inline-flex items-center border border-white/40 px-3 py-1 font-body text-[11px] font-medium uppercase tracking-[0.18em] text-white/80">
+              Construção por Administração
+            </span>
+          </motion.div>
+
+          {/* H1 */}
           <motion.h1
             className="mt-6 font-display text-[2.6rem] font-extrabold leading-[1.06] tracking-tight text-white lg:text-7xl"
             variants={fadeUp}
