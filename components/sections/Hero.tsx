@@ -48,17 +48,7 @@ export default function Hero() {
             },
           }}
         >
-          {/* Tag — delay 0.2s via stagger */}
-          <motion.div
-            variants={fadeUp}
-            transition={{ duration: 0.55, ease: "easeOut" }}
-          >
-            <span className="inline-flex items-center border border-navy-mid px-3 py-1 font-body text-[11px] font-medium uppercase tracking-[0.18em] text-navy-mid">
-              Construção por Administração
-            </span>
-          </motion.div>
-
-          {/* H1 — delay 0.4s */}
+          {/* H1 — delay 0.2s via stagger */}
           <motion.h1
             className="mt-6 font-display text-[2.6rem] font-extrabold leading-[1.06] tracking-tight text-white lg:text-7xl"
             variants={fadeUp}
