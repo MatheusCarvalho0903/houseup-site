@@ -56,9 +56,9 @@ export default function Footer() {
             <Image
               src="/logo_houseup.png"
               alt="HouseUp Construtora"
-              width={200}
-              height={45}
-              className="h-11 w-auto brightness-0 invert"
+              width={120}
+              height={28}
+              className="h-7 w-auto brightness-0 invert"
             />
             <p className="max-w-[220px] font-body text-sm leading-relaxed text-muted">
               Construção com transparência.
