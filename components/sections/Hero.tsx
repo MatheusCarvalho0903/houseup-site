@@ -35,7 +35,7 @@ export default function Hero() {
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
       >
-        <source src="/video/hero-2.mp4" type="video/mp4" />
+        <source src="/video/hero_2.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay gradient — navy escuro à esquerda, transparente à direita */}
