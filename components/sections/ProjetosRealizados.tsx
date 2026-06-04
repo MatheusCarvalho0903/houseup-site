@@ -91,7 +91,7 @@ export default function ProjetosRealizados() {
 
         {/* Galeria */}
         <motion.div
-          className="mt-12 grid grid-cols-1 gap-3 lg:grid-cols-3 lg:grid-rows-[300px_300px_300px] lg:gap-4"
+          className="mt-12 grid grid-cols-1 gap-3 lg:h-[620px] lg:grid-cols-3 lg:grid-rows-2 lg:gap-4"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
