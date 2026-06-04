@@ -24,7 +24,7 @@ const FOTOS = [
   },
   {
     id:        "jefferson-sala",
-    src:       "/images/projetos/jefferson-sala.png",
+    src:       "/images/projetos/jefferson-sala.jpg",
     alt:       "Interior da Residência Jefferson — acabamento premium",
     linha1:    "Residência Jefferson · Interior",
     linha2:    "Acabamento premium",
@@ -32,7 +32,7 @@ const FOTOS = [
   },
   {
     id:        "jefferson-piscina",
-    src:       "/images/projetos/jefferson-piscina.png",
+    src:       "/images/projetos/jefferson-piscina.jpg",
     alt:       "Área de lazer com piscina e jardim integrados — Residência Jefferson",
     linha1:    "Residência Jefferson · Área de Lazer",
     linha2:    "Piscina e jardim integrados",
@@ -40,7 +40,7 @@ const FOTOS = [
   },
   {
     id:        "sheila-garagem",
-    src:       "/images/projetos/sheila-garagem.png",
+    src:       "/images/projetos/sheila-garagem.jpg",
     alt:       "Garagem da Residência Sheila — Personnalité 145m², Uberlândia MG",
     linha1:    "Residência Sheila · Uberlândia, MG",
     linha2:    "Personnalité · 145m²",
