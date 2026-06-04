@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 /* Variante base para todos os elementos animados */
@@ -9,6 +10,14 @@ const fadeUp = {
 };
 
 export default function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    video.play().catch(() => {});
+  }, []);
+
   return (
     <section
       id="hero"
@@ -16,10 +25,12 @@ export default function Hero() {
     >
       {/* Vídeo de fundo */}
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
+        preload="auto"
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
       >
