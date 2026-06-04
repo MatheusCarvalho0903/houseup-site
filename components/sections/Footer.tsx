@@ -8,7 +8,8 @@ const NAV_LINKS = [
   { label: "Simulador",     href: "#simulador"     },
   { label: "Projetos",      href: "#projetos"      },
   { label: "Financiamento", href: "#financiamento" },
-  { label: "Método",        href: "#metodo"        },
+  { label: "Método",             href: "#metodo"               },
+  { label: "Projetos Realizados", href: "#projetos-realizados"  },
 ] as const;
 
 const SERVICOS = [
@@ -55,9 +56,9 @@ export default function Footer() {
             <Image
               src="/logo_houseup.png"
               alt="HouseUp Construtora"
-              width={140}
-              height={32}
-              className="h-8 w-auto"
+              width={200}
+              height={45}
+              className="h-11 w-auto brightness-0 invert"
             />
             <p className="max-w-[220px] font-body text-sm leading-relaxed text-muted">
               Construção com transparência.
