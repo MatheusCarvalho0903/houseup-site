@@ -31,6 +31,7 @@ export default function Hero() {
         muted
         playsInline
         preload="auto"
+        poster="/images/projetos/jefferson-fachada.jpeg"
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
       >
