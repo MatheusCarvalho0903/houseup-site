@@ -16,7 +16,7 @@ const stagger = {
 const FOTOS = [
   {
     id:        "jefferson-fachada",
-    src:       "/images/projetos/jefferson-fachada.jpg",
+    src:       "/images/projetos/jefferson-fachada.jpeg",
     alt:       "Fachada da Residência Jefferson — Personnalité 280m², Uberlândia MG",
     linha1:    "Residência Jefferson · Uberlândia, MG",
     linha2:    "Personnalité · 280m²",
@@ -24,7 +24,7 @@ const FOTOS = [
   },
   {
     id:        "jefferson-sala",
-    src:       "/images/projetos/jefferson-sala.jpg",
+    src:       "/images/projetos/jefferson-sala.png",
     alt:       "Interior da Residência Jefferson — acabamento premium",
     linha1:    "Residência Jefferson · Interior",
     linha2:    "Acabamento premium",
@@ -32,7 +32,7 @@ const FOTOS = [
   },
   {
     id:        "jefferson-piscina",
-    src:       "/images/projetos/jefferson-piscina.jpg",
+    src:       "/images/projetos/jefferson-piscina.png",
     alt:       "Área de lazer com piscina e jardim integrados — Residência Jefferson",
     linha1:    "Residência Jefferson · Área de Lazer",
     linha2:    "Piscina e jardim integrados",
@@ -40,7 +40,7 @@ const FOTOS = [
   },
   {
     id:        "sheila-garagem",
-    src:       "/images/projetos/sheila-garagem.jpg",
+    src:       "/images/projetos/sheila-garagem.png",
     alt:       "Garagem da Residência Sheila — Personnalité 145m², Uberlândia MG",
     linha1:    "Residência Sheila · Uberlândia, MG",
     linha2:    "Personnalité · 145m²",
@@ -48,7 +48,7 @@ const FOTOS = [
   },
   {
     id:        "sheila-fachada",
-    src:       "/images/projetos/sheila-fachada.jpg",
+    src:       "/images/projetos/sheila-fachada.png",
     alt:       "Fachada da Residência Sheila — Personnalité 145m², Uberlândia MG",
     linha1:    "Residência Sheila · Uberlândia, MG",
     linha2:    "Personnalité · 145m²",
@@ -56,7 +56,7 @@ const FOTOS = [
   },
   {
     id:        "sheila-gourmet",
-    src:       "/images/projetos/sheila-gourmet.jpg",
+    src:       "/images/projetos/sheila-gourmet.png",
     alt:       "Área gourmet da Residência Sheila — Personnalité 145m²",
     linha1:    "Residência Sheila · Área Gourmet",
     linha2:    "Personnalité · 145m²",
