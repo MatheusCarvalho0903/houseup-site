@@ -3,8 +3,9 @@ import Diferenciais  from "@/components/sections/Diferenciais";
 import Modelos       from "@/components/sections/Modelos";
 import Projetos      from "@/components/sections/Projetos";
 import Financiamento from "@/components/sections/Financiamento";
-import MetodoHouseUp from "@/components/sections/MetodoHouseUp";
-import CTAFinal      from "@/components/sections/CTAFinal";
+import MetodoHouseUp        from "@/components/sections/MetodoHouseUp";
+import ProjetosRealizados   from "@/components/sections/ProjetosRealizados";
+import CTAFinal             from "@/components/sections/CTAFinal";
 import Footer        from "@/components/sections/Footer";
 import Simulador     from "@/components/Simulador";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Projetos />
       <Financiamento />
       <MetodoHouseUp />
+      <ProjetosRealizados />
       <Simulador />
       <CTAFinal />
       <Footer />
