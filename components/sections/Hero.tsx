@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 /* Variante base para todos os elementos animados */
@@ -10,14 +9,6 @@ const fadeUp = {
 };
 
 export default function Hero() {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-    video.play().catch(() => {});
-  }, []);
-
   return (
     <section
       id="hero"
@@ -25,17 +16,14 @@ export default function Hero() {
     >
       {/* Vídeo de fundo */}
       <video
-        ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
-        preload="auto"
-        poster="/images/projetos/jefferson-fachada.jpeg"
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover object-[center_30%]"
       >
-        <source src="/video/hero-1.mp4" type="video/mp4" />
+        <source src="/video/hero-2.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay gradient — navy escuro à esquerda, transparente à direita */}
