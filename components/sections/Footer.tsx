@@ -53,7 +53,7 @@ export default function Footer() {
               Substitua por <Image src="/logo_houseup.png" ... />
               quando o arquivo estiver disponível
             */}
-            <div className="relative h-16 w-64">
+            <div className="relative h-20 w-80">
               <Image
                 src="/logo_houseup.png"
                 alt="HouseUp Construtora"
