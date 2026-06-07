@@ -58,7 +58,7 @@ export default function Footer() {
               alt="HouseUp Construtora"
               width={120}
               height={28}
-              className="h-7 w-auto brightness-0 invert"
+              className="h-7 w-auto max-w-[120px] brightness-0 invert"
             />
             <p className="max-w-[220px] font-body text-sm leading-relaxed text-muted">
               Construção com transparência.
